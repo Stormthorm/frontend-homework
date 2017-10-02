@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #3399cc;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    border: 24px solid #2b81ac;
+}
+header {
+    width: 984px;
+    display: block;
+    margin: 0 auto 0;
+}
+
+footer {
+    width: 984px;
+    display: block;
+    margin: 0 auto 0;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.5;
+}
+.box {
+    width: 984px;
+    display: block;
+    background-color: white;
+    font-size: 0;
+    padding: 3px;
+    margin: 0 auto 0;
+}
+
+.box-item {
+    width: 25%;
+    height: 148px;
+    display: inline-block;
+    border: 3px solid #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.box-item-name {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.5;
+    padding: 30px 0 12px;
+    margin: 0;
+}
+
+.box-item-status {
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+.box-item-status > .wi {
+    font-size: 42px;
+    vertical-align: middle;
+}
+.footer-text {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5;
+    padding: 32px 0 136px;
+    margin: 0;
+}
+.box-item:hover > .box-item-status {
+    color: rgba(255, 255, 255, 1);
+}
+.box-item-lisbon {
+    background-color: #3399cc;
+    width: 50%;
+}
+
+.box-item-paris {
+    background-color: #33cccc;
+}
+
+.box-item-belgrade  {
+    background-color: #996699;
+}
+
+.box-item-moscow {
+    background-color: #c24747;
+}
+
+.box-item-telaviv {
+    background-color: #e2674a;
+}
+
+.box-item-cair {
+    background-color: #f2c261;
+}
+
+.box-item-newyork {
+    background-color: #99cc99;
+}
+
+.box-item-newdehli {
+    background-color: #669999;
+}
+
+.box-item-sf {
+    background-color: #cc6699;
+    width: 50%;
+}
+
+.box-item-tokyo {
+    background-color: #339966;
+}
+
+.box-item-sydney {
+    background-color: #666699;
+    width: 100%;
+}
+
